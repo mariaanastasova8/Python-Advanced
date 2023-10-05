@@ -1,0 +1,8 @@
+matrix = [[1, 2, 3], [4, 5, 6]]
+
+flatten = [el for list_el in matrix for el in list_el]
+
+print(flatten)
+
+# for list_el in matrix:
+    flatten.extend(list_el)
